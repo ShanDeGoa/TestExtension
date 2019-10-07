@@ -15,6 +15,10 @@ namespace Test_Extension
             Console.WriteLine(usr.getFirstName());
             Console.WriteLine(usr.getSecondName());
             usr.getFullName();
+
+            int i = 50;
+            Console.WriteLine(i.TripleValue());
+
             Console.ReadKey();
         }
     }
